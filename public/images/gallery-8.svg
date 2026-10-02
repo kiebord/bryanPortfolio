@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Demo day screen with bokeh lights">
+<defs>
+  <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#6268ff" stop-opacity="0.55"/>
+    <stop offset="60%" stop-color="#c8ff1a" stop-opacity="0.12"/>
+    <stop offset="100%" stop-color="#6268ff" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="redfade" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#6268ff"/>
+    <stop offset="100%" stop-color="#c8ff1a"/>
+  </linearGradient>
+  <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#6268ff" stop-opacity="0.65"/>
+    <stop offset="100%" stop-color="#6268ff" stop-opacity="0"/>
+  </linearGradient>
+</defs><rect width="1200" height="900" fill="#06070b"/><circle cx="1005" cy="617" r="28" fill="#f5f6fa" opacity="0.10"/><circle cx="222" cy="467" r="26" fill="#f5f6fa" opacity="0.09"/><circle cx="137" cy="852" r="28" fill="#f5f6fa" opacity="0.16"/><circle cx="742" cy="426" r="33" fill="#f5f6fa" opacity="0.08"/><circle cx="121" cy="883" r="14" fill="#f5f6fa" opacity="0.17"/><circle cx="0" cy="898" r="40" fill="#f5f6fa" opacity="0.16"/><circle cx="868" cy="371" r="52" fill="#f5f6fa" opacity="0.09"/><circle cx="1075" cy="425" r="30" fill="#f5f6fa" opacity="0.08"/><circle cx="194" cy="721" r="49" fill="#f5f6fa" opacity="0.08"/><circle cx="410" cy="635" r="50" fill="#6268ff" opacity="0.11"/><circle cx="1155" cy="355" r="37" fill="#f5f6fa" opacity="0.09"/><circle cx="1188" cy="174" r="53" fill="#f5f6fa" opacity="0.17"/><circle cx="154" cy="451" r="51" fill="#6268ff" opacity="0.14"/><circle cx="11" cy="209" r="17" fill="#f5f6fa" opacity="0.12"/><circle cx="197" cy="574" r="33" fill="#6268ff" opacity="0.06"/><circle cx="152" cy="571" r="45" fill="#f5f6fa" opacity="0.09"/><circle cx="448" cy="640" r="46" fill="#6268ff" opacity="0.05"/><circle cx="446" cy="544" r="31" fill="#6268ff" opacity="0.18"/><circle cx="985" cy="501" r="53" fill="#f5f6fa" opacity="0.06"/><circle cx="754" cy="605" r="12" fill="#6268ff" opacity="0.10"/><circle cx="293" cy="388" r="21" fill="#6268ff" opacity="0.11"/><circle cx="244" cy="343" r="36" fill="#6268ff" opacity="0.17"/><circle cx="1055" cy="149" r="47" fill="#6268ff" opacity="0.14"/><circle cx="347" cy="141" r="26" fill="#f5f6fa" opacity="0.08"/><circle cx="652" cy="817" r="27" fill="#6268ff" opacity="0.07"/><circle cx="810" cy="582" r="19" fill="#f5f6fa" opacity="0.18"/><rect x="280" y="190" width="640" height="420" rx="24" fill="#0e111b" stroke="#262b3c" stroke-width="2"/><rect x="360" y="480" width="48" height="80" rx="10" fill="#f5f6fa" opacity="0.18"/><rect x="440" y="430" width="48" height="130" rx="10" fill="#f5f6fa" opacity="0.18"/><rect x="520" y="460" width="48" height="100" rx="10" fill="#f5f6fa" opacity="0.18"/><rect x="600" y="370" width="48" height="190" rx="10" fill="#f5f6fa" opacity="0.18"/><rect x="680" y="410" width="48" height="150" rx="10" fill="#f5f6fa" opacity="0.18"/><rect x="760" y="320" width="48" height="240" rx="10" fill="#6268ff" opacity="1"/><rect x="320" y="226" width="160" height="14" rx="7" fill="#f5f6fa" opacity="0.8"/><rect x="540" y="640" width="120" height="70" fill="#151928"/><rect x="450" y="700" width="300" height="16" rx="8" fill="#151928"/></svg>

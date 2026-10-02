@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Layered electric blue waves">
+<defs>
+  <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#6268ff" stop-opacity="0.55"/>
+    <stop offset="60%" stop-color="#c8ff1a" stop-opacity="0.12"/>
+    <stop offset="100%" stop-color="#6268ff" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="redfade" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#6268ff"/>
+    <stop offset="100%" stop-color="#c8ff1a"/>
+  </linearGradient>
+  <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#6268ff" stop-opacity="0.65"/>
+    <stop offset="100%" stop-color="#6268ff" stop-opacity="0"/>
+  </linearGradient>
+</defs><rect width="1200" height="900" fill="#06070b"/><circle cx="600" cy="300" r="560" fill="url(#glow)" opacity="0.7"/><path d="M0 250 C 200 210, 400 290, 600 250 S 1000 210, 1200 250 L1200 900 L0 900 Z" fill="#6268ff" fill-opacity="0.5" stroke="#6268ff" stroke-opacity="0.90" stroke-width="2"/><path d="M0 305 C 200 259, 400 351, 600 305 S 1000 259, 1200 305 L1200 900 L0 900 Z" fill="#0e111b" fill-opacity="0.85" stroke="#6268ff" stroke-opacity="0.81" stroke-width="2"/><path d="M0 360 C 200 308, 400 412, 600 360 S 1000 308, 1200 360 L1200 900 L0 900 Z" fill="#0e111b" fill-opacity="0.85" stroke="#6268ff" stroke-opacity="0.72" stroke-width="2"/><path d="M0 415 C 200 357, 400 473, 600 415 S 1000 357, 1200 415 L1200 900 L0 900 Z" fill="#6268ff" fill-opacity="0.41000000000000003" stroke="#6268ff" stroke-opacity="0.63" stroke-width="2"/><path d="M0 470 C 200 406, 400 534, 600 470 S 1000 406, 1200 470 L1200 900 L0 900 Z" fill="#0e111b" fill-opacity="0.85" stroke="#6268ff" stroke-opacity="0.54" stroke-width="2"/><path d="M0 525 C 200 455, 400 595, 600 525 S 1000 455, 1200 525 L1200 900 L0 900 Z" fill="#0e111b" fill-opacity="0.85" stroke="#6268ff" stroke-opacity="0.45" stroke-width="2"/><path d="M0 580 C 200 504, 400 656, 600 580 S 1000 504, 1200 580 L1200 900 L0 900 Z" fill="#6268ff" fill-opacity="0.32" stroke="#6268ff" stroke-opacity="0.36" stroke-width="2"/><path d="M0 635 C 200 553, 400 717, 600 635 S 1000 553, 1200 635 L1200 900 L0 900 Z" fill="#0e111b" fill-opacity="0.85" stroke="#6268ff" stroke-opacity="0.27" stroke-width="2"/><path d="M0 690 C 200 602, 400 778, 600 690 S 1000 602, 1200 690 L1200 900 L0 900 Z" fill="#0e111b" fill-opacity="0.85" stroke="#6268ff" stroke-opacity="0.18" stroke-width="2"/></svg>

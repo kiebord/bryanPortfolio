@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Hallway in perspective">
+<defs>
+  <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#6268ff" stop-opacity="0.55"/>
+    <stop offset="60%" stop-color="#c8ff1a" stop-opacity="0.12"/>
+    <stop offset="100%" stop-color="#6268ff" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="redfade" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#6268ff"/>
+    <stop offset="100%" stop-color="#c8ff1a"/>
+  </linearGradient>
+  <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#6268ff" stop-opacity="0.65"/>
+    <stop offset="100%" stop-color="#6268ff" stop-opacity="0"/>
+  </linearGradient>
+</defs><rect width="1200" height="900" fill="#06070b"/>
+  <circle cx="600" cy="380" r="420" fill="url(#glow)" opacity="1"/>
+  <line x1="600" y1="380" x2="-720" y2="900" stroke="#262b3c" stroke-width="2"/><line x1="600" y1="380" x2="-500" y2="900" stroke="#262b3c" stroke-width="2"/><line x1="600" y1="380" x2="-280" y2="900" stroke="#262b3c" stroke-width="2"/><line x1="600" y1="380" x2="-60" y2="900" stroke="#262b3c" stroke-width="2"/><line x1="600" y1="380" x2="160" y2="900" stroke="#262b3c" stroke-width="2"/><line x1="600" y1="380" x2="380" y2="900" stroke="#262b3c" stroke-width="2"/><line x1="600" y1="380" x2="600" y2="900" stroke="#262b3c" stroke-width="2"/><line x1="600" y1="380" x2="820" y2="900" stroke="#262b3c" stroke-width="2"/><line x1="600" y1="380" x2="1040" y2="900" stroke="#262b3c" stroke-width="2"/><line x1="600" y1="380" x2="1260" y2="900" stroke="#262b3c" stroke-width="2"/><line x1="600" y1="380" x2="1480" y2="900" stroke="#262b3c" stroke-width="2"/><line x1="600" y1="380" x2="1700" y2="900" stroke="#262b3c" stroke-width="2"/><line x1="600" y1="380" x2="1920" y2="900" stroke="#262b3c" stroke-width="2"/>
+  <rect x="520" y="320" width="160" height="120" fill="#06070b" stroke="#6268ff" stroke-width="3"/>
+  <path d="M0 0 L520 320 L520 440 L0 900 Z" fill="#0e111b" opacity="0.9"/>
+  <path d="M1200 0 L680 320 L680 440 L1200 900 Z" fill="#0e111b" opacity="0.9"/>
+  <rect x="120" y="300" width="70" height="300" fill="#151928" stroke="#6268ff" stroke-opacity="0.6"/><rect x="230" y="340" width="56" height="240" fill="#151928" stroke="#6268ff" stroke-opacity="0.6"/><rect x="340" y="380" width="42" height="180" fill="#151928" stroke="#6268ff" stroke-opacity="0.6"/>
+  <rect x="1010" y="300" width="70" height="300" fill="#151928" stroke="#6268ff" stroke-opacity="0.6"/><rect x="900" y="340" width="56" height="240" fill="#151928" stroke="#6268ff" stroke-opacity="0.6"/><rect x="790" y="380" width="42" height="180" fill="#151928" stroke="#6268ff" stroke-opacity="0.6"/>
+  <circle cx="600" cy="380" r="24" fill="#6268ff" opacity="0.9"/></svg>

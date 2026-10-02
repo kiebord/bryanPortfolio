@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Two abstract posters">
+<defs>
+  <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#6268ff" stop-opacity="0.55"/>
+    <stop offset="60%" stop-color="#c8ff1a" stop-opacity="0.12"/>
+    <stop offset="100%" stop-color="#6268ff" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="redfade" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#6268ff"/>
+    <stop offset="100%" stop-color="#c8ff1a"/>
+  </linearGradient>
+  <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#6268ff" stop-opacity="0.65"/>
+    <stop offset="100%" stop-color="#6268ff" stop-opacity="0"/>
+  </linearGradient>
+</defs><rect width="1200" height="900" fill="#06070b"/>
+  <circle cx="300" cy="450" r="520" fill="url(#glow)" opacity="0.8"/>
+  <g transform="rotate(-6 400 450)">
+    <rect x="170" y="110" width="440" height="640" rx="14" fill="#0e111b" stroke="#262b3c" stroke-width="2"/>
+    <circle cx="390" cy="360" r="140" fill="url(#redfade)"/>
+    <rect x="220" y="560" width="300" height="30" rx="6" fill="#f5f6fa"/>
+    <rect x="220" y="610" width="200" height="16" rx="8" fill="#9ca6bd" opacity="0.6"/>
+  </g>
+  <g transform="rotate(5 840 470)">
+    <rect x="640" y="190" width="380" height="560" rx="14" fill="#f5f6fa"/>
+    <rect x="680" y="240" width="300" height="220" fill="#6268ff"/>
+    <rect x="680" y="490" width="220" height="26" rx="4" fill="#06070b"/>
+    <rect x="680" y="536" width="300" height="12" rx="6" fill="#06070b" opacity="0.4"/>
+    <rect x="680" y="562" width="260" height="12" rx="6" fill="#06070b" opacity="0.4"/>
+  </g></svg>

@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    background-color: #06070b;
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-ink text-white antialiased;
+  }
+  ::selection {
+    background: #c8ff1a;
+    color: #06070b;
+  }
+  :focus-visible {
+    outline: 2px solid #c8ff1a;
+    outline-offset: 3px;
+    border-radius: 6px;
+  }
+}
+
+@layer utilities {
+  .text-outline {
+    color: transparent;
+    -webkit-text-stroke: 2px #6268ff;
+  }
+  .page-grid {
+    background-image:
+      linear-gradient(to right, rgba(38, 43, 60, 0.3) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(38, 43, 60, 0.3) 1px, transparent 1px);
+    background-size: 64px 64px;
+    mask-image: radial-gradient(ellipse at 50% 0%, #000 20%, transparent 75%);
+    -webkit-mask-image: radial-gradient(ellipse at 50% 0%, #000 20%, transparent 75%);
+  }
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(28px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes drift {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+}
+
+.rise {
+  opacity: 0;
+  animation: rise 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) forwards;
+}
+.rise-1 { animation-delay: 0.05s; }
+.rise-2 { animation-delay: 0.2s; }
+.rise-3 { animation-delay: 0.35s; }
+.rise-4 { animation-delay: 0.5s; }
+.rise-5 { animation-delay: 0.65s; }
+
+.drift {
+  animation: drift 7s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .rise,
+  .drift {
+    animation: none;
+    opacity: 1;
+  }
+}
